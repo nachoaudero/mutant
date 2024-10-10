@@ -8,7 +8,7 @@ public class MutantApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MutantApplication.class, args);
-		System.out.println("Arranco la app.");
+		System.out.println("La API se esta ejecutando.");
 	}
 
 }
