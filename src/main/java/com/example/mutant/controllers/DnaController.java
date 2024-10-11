@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/mutante")
+@RequestMapping("/mutant")
 // Recibe el request del DTO, lo comunica con el Service y por ultimo envia el response con el formato del DTO
 public class DnaController {
     private final DnaService dnaService;
