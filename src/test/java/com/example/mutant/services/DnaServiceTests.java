@@ -23,7 +23,7 @@ public class DnaServiceTests {
                 "ACTT",
                 "ATTT",
                 "ACTC",
-                "CCTA"
+                "ACTA"
         };
         assertTrue(DnaService.isMutant(dna));
     }
